@@ -228,12 +228,20 @@ text-shadow:#333;
 
 }
 
+<<<<<<< HEAD
 .search-container{
     background-color: #808080;
+=======
+/* search */
+
+.search-container {
+    background-color: #34454E;
+>>>>>>> b598ca11c1f451d79c00fcc16806819e8fa905e8
     text-align: center;
     padding: 5em 0;
 }
 
+<<<<<<< HEAD
 .search-container h2{
     color:#FFF;
     font-size:42px;
@@ -250,22 +258,103 @@ text-shadow:#333;
 .search-container input{
     display: block;
     position:relative;
+=======
+.search-container h2 {
+    color:#FFF;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.search-container p {
+    color:#D5D5D5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.search-container input {
+    display: block;
+    position: relative;
+>>>>>>> b598ca11c1f451d79c00fcc16806819e8fa905e8
     margin-left: auto;
     margin-right: auto;
     border:none;
     border-radius:5px;
 }
 
+<<<<<<< HEAD
 .search-container input[type=text]{
     margin-bottom: 24px;
+=======
+.search-container input[type=text] {
+    margin-bottom: 25px;
+>>>>>>> b598ca11c1f451d79c00fcc16806819e8fa905e8
     width: 60%;
     padding: 20px;
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 .search-container input[type=submit]{
     background-color: #2CC76A;
     padding: 15px 30px;
     color: #FFF;
     font-size: 24px;
 }
+=======
+.search-container input[type=submit] {
+    background-color: #2CC76A;
+    padding: 15px 30px;
+    color:#FFF;
+    font-size: 24px;
+}
+
+/*contact*/
+
+.contact-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contact-container h2{
+    font-size: 36px;
+} 
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+} 
+
+.contact-container input, .contact-container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+} 
+
+.contact-container textarea{
+    display:block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 468px;
+    height: 150px;
+} 
+
+.contact-container input[type=submit] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2CC76A;
+    color:#fff;
+
+}
+
+
+>>>>>>> b598ca11c1f451d79c00fcc16806819e8fa905e8
