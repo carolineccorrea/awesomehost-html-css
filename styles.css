@@ -215,7 +215,7 @@ text-shadow:#333;
 }
 
 .plan .plan-btn {
-    background-color: #32CD32;
+    background-color: #2CC76A;
     color: #FFF;
     font-size: 24px;
     height: 75px;
@@ -226,4 +226,46 @@ text-shadow:#333;
 .plan .best {
     background-color: #f45c57;
 
+}
+
+.search-container{
+    background-color: #808080;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.search-container h2{
+    color:#FFF;
+    font-size:42px;
+    margin-top:0;
+    margin-bottom: 15px;
+}
+
+.search-container p{
+    color:#FFFF;
+    font-size: 25px;
+    margin-bottom: 26px;
+}
+
+.search-container input{
+    display: block;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    border-radius:5px;
+}
+
+.search-container input[type=text]{
+    margin-bottom: 24px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.search-container input[type=submit]{
+    background-color: #2CC76A;
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 24px;
 }
